@@ -2,6 +2,11 @@
 # yarn lockfile v1
 
 
+"@uirouter/core@6.0.8":
+  version "6.0.8"
+  resolved "https://registry.yarnpkg.com/@uirouter/core/-/core-6.0.8.tgz#a1e919a4743be729751aafc4ce353d0dc0ffd26c"
+  integrity sha512-Gc/BAW47i4L54p8dqYCJJZuv2s3tqlXQ0fvl6Zp2xrblELPVfxmjnc0eurx3XwfQdaqm3T6uls6tQKkof/4QMw==
+
 Base64@~0.2.0:
   version "0.2.1"
   resolved "https://registry.yarnpkg.com/Base64/-/Base64-0.2.1.tgz#ba3a4230708e186705065e66babdd4c35cf60028"
@@ -112,13 +117,14 @@ angular-ui-bootstrap@^2.0.0:
   version "2.2.0"
   resolved "https://registry.yarnpkg.com/angular-ui-bootstrap/-/angular-ui-bootstrap-2.2.0.tgz#90ed79a6208fe6072331635cca124b2ca7b0c7e0"
 
-angular-ui-router@^0.3.1:
-  version "0.3.2"
-  resolved "https://registry.yarnpkg.com/angular-ui-router/-/angular-ui-router-0.3.2.tgz#c27e0496309c99218d5655985b164a096ab520a9"
+angular-ui-router@^1.0.4:
+  version "1.0.30"
+  resolved "https://registry.yarnpkg.com/angular-ui-router/-/angular-ui-router-1.0.30.tgz#de8a07fa1620fc5a979ee8448d0ded159792436f"
+  integrity sha512-8xMpxbOtCJbRnGR1fhbyZ5BhFXr3zs1L2ytXQiBACTJjot309QNFFCaWx0lDM2eVXp8qte4idigU9gwWdspmtQ==
   dependencies:
-    angular "^1.0.8"
+    "@uirouter/core" "6.0.8"
 
-angular@^1.0.8, angular@^1.4.2, angular@^1.x:
+angular@^1.4.2, angular@^1.x:
   version "1.5.8"
   resolved "https://registry.yarnpkg.com/angular/-/angular-1.5.8.tgz#925a5392b8c212d09572dc446db7e01264e094cb"
 
